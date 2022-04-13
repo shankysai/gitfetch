@@ -5,4 +5,4 @@ import subprocess
 #print(subprocess.run(["echo", "Geeks for geeks"],capture_output=True))
 
 # For older versions of Python:
-print(subprocess.check_output([timeout -s KILL 1m telnet smtp.gmail.com 25]))
+print(subprocess.check_output([ telnet smtp.gmail.com 25 ]))
